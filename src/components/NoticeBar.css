@@ -1,0 +1,13 @@
+.notice-bar {
+    background-color: #ffcc00; /* Yellow color for attention */
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+marquee {
+    font-family: Arial, sans-serif;
+}

@@ -1,0 +1,69 @@
+.hero-container {
+    height: 100vh;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+/* Updated H1 for better readability */
+h1 {
+    font-size: 4.5rem;  /* Increased size */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Highlight only "The Student Spot" in orange */
+.highlight {
+    color: #ff6347;  /* Orange */
+}
+
+/* Ensure the rest of the text is bold and black */
+.bold-text {
+    font-weight: bold;
+    color: black;
+}
+
+p {
+    font-size: 1.5rem;
+    max-width: 700px;
+    margin-top: 10px;
+    color: black;
+}
+
+.button-container {
+    margin-top: 30px;
+}
+
+.join-btn {
+    padding: 15px 40px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.3s, background-color 0.3s;
+    background-color: #4caf50;
+    color: white;
+}
+
+.join-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.join-btn:hover {
+    transform: scale(1.1);
+    background-color: #388e3c;
+}
